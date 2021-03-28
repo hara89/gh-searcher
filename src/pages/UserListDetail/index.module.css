@@ -1,0 +1,42 @@
+.UserListDetailContainer {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.UserDetail {
+  display: flex;
+  align-items: center;
+}
+
+.UserDetail img {
+  width: 250px;
+}
+
+.UserDetailDescription {
+  padding: 0 50px;
+}
+
+.UserListDetailContainer input {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 575.98px) {
+  .UserListDetailContainer {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .UserDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .UserListDetailContainer input {
+    font-size: 15px;
+  }
+}
